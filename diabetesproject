@@ -1,0 +1,6 @@
+CREATE DATABASE diabetes;
+
+USE diabetes;
+
+SELECT * FROM diabetes;
+-- Verifying all data was imported.
