@@ -24,3 +24,14 @@ SELECT AVG(Pregnancies) FROM diabetes WHERE Outcome = 0;
 -- Question 3: Does the level in insulin in someone's blood increase or decrease when they have a higher BMI?
 SELECT Insulin, BMI FROM diabetes ORDER BY Insulin DESC, BMI DESC;
 	-- I exported this data to Tableau to get a visual reading to determine an answer. Please see Tableau Public link.
+
+///////////////
+
+CREATE DATABASE diabetes;
+
+USE diabetes;
+
+SELECT * FROM covid_diabetes;
+
+-- Question 1: How many people had both diabetes and COVID?
+
